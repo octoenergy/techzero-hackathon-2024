@@ -1,2 +1,5 @@
 .next
 .venv
+.vscode
+.idx
+.DS_Store

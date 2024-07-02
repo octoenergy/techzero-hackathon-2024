@@ -1,0 +1,17 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+autopep8 = "*"
+flask = "==3.0.3"
+gunicorn = "==22.0.0"
+werkzeug = "==3.0.3"
+sqlalchemy = "*"
+flask-sqlalchemy = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"

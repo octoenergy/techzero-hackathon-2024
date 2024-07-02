@@ -1,0 +1,45 @@
+model Business {
+  id               Int        @id @default(autoincrement())
+  name             String?
+  postcode         String?
+  electricityTariffId Int? 
+  gasTariffId      Int?
+  electricityLoadCurveId Int?
+  gasLoadCurveId   Int?
+
+  electricityTariff Tariff?   @relation(fields: [electricityTariffId], references: [id])
+  gasTariff         Tariff?   @relation(fields: [gasTariffId], references: [id])
+  electricityLoadCurve LoadCurve? @relation(fields: [electricityLoadCurveId], references: [id])
+  gasLoadCurve      LoadCurve? @relation(fields: [gasLoadCurveId], references: [id])
+}
+
+model Tariff {
+  id                              Int      @id @default(autoincrement())
+  utility                         String  
+  timeOfUse                       Boolean
+  timeOfUseId                     Int?     
+  avgUnitRate                     Float?   
+  estimatedFutureEnergyAnnualUsage Int?     
+  annualStandingCharge            Float   
+  estimatedEnergyAnnualEnergyCost Float   
+  timeOfUseTariff                 TimeOfUseTariff? @relation(fields: [timeOfUseId], references: [id])
+
+  businessesElectricity           Business[] @relation("electricityTariff")
+  businessesGas                   Business[] @relation("gasTariff")
+}
+
+model TimeOfUseTariff {
+  id        Int      @id @default(autoincrement())
+  timestamp DateTime
+  unitPrice Float
+  tariffs   Tariff[]
+}
+
+model LoadCurve {
+  id                  Int      @id @default(autoincrement())
+  timestamp           DateTime
+  unitPrice           Float
+  tariffs             Tariff[]
+  businessesElectricity Business[] @relation("electricityLoadCurve")
+  businessesGas       Business[] @relation("gasLoadCurve")
+}

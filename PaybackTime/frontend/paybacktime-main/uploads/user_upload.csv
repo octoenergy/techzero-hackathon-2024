@@ -1,0 +1,5 @@
+appliance,tag,name,upfront cost,lifetime,warranty,annual_maintenance_cost,avg_input,max_power,battery_compatible
+boiler,HVAC,Ideal Logic2 C35 35kW Combination Boiler Natural Gas ErP,2205.99,15,2,60-120,24.4,35,0
+oven,cooking,Blue Seal G570,3444,15,1,75-130,6.5,21.5,0
+cooling_freezer,HVAC,Williams BC2,1711.99,12-20,1,150-350,0.5,1.7,0
+electric_radiator,HVAC,Dimplex XL Storage Heater,1200,20,2,150-250,.7,1.5,0

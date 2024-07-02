@@ -1,0 +1,343 @@
+{
+    "count": 48,
+    "next": null,
+    "previous": null,
+    "results": [
+        {
+            "value_exc_vat": 19.7,
+            "value_inc_vat": 20.685,
+            "valid_from": "2024-07-02T18:00:00Z",
+            "valid_to": "2024-07-02T18:30:00Z",
+            "payment_method": null
+        },
+        {
+            "value_exc_vat": 32.0,
+            "value_inc_vat": 33.6,
+            "valid_from": "2024-07-02T17:30:00Z",
+            "valid_to": "2024-07-02T18:00:00Z",
+            "payment_method": null
+        },
+        {
+            "value_exc_vat": 32.0,
+            "value_inc_vat": 33.6,
+            "valid_from": "2024-07-02T17:00:00Z",
+            "valid_to": "2024-07-02T17:30:00Z",
+            "payment_method": null
+        },
+        {
+            "value_exc_vat": 32.0,
+            "value_inc_vat": 33.6,
+            "valid_from": "2024-07-02T16:30:00Z",
+            "valid_to": "2024-07-02T17:00:00Z",
+            "payment_method": null
+        },
+        {
+            "value_exc_vat": 29.0,
+            "value_inc_vat": 30.45,
+            "valid_from": "2024-07-02T16:00:00Z",
+            "valid_to": "2024-07-02T16:30:00Z",
+            "payment_method": null
+        },
+        {
+            "value_exc_vat": 29.0,
+            "value_inc_vat": 30.45,
+            "valid_from": "2024-07-02T15:30:00Z",
+            "valid_to": "2024-07-02T16:00:00Z",
+            "payment_method": null
+        },
+        {
+            "value_exc_vat": 28.65,
+            "value_inc_vat": 30.0825,
+            "valid_from": "2024-07-02T15:00:00Z",
+            "valid_to": "2024-07-02T15:30:00Z",
+            "payment_method": null
+        },
+        {
+            "value_exc_vat": 15.5,
+            "value_inc_vat": 16.275,
+            "valid_from": "2024-07-02T14:30:00Z",
+            "valid_to": "2024-07-02T15:00:00Z",
+            "payment_method": null
+        },
+        {
+            "value_exc_vat": 14.7,
+            "value_inc_vat": 15.435,
+            "valid_from": "2024-07-02T14:00:00Z",
+            "valid_to": "2024-07-02T14:30:00Z",
+            "payment_method": null
+        },
+        {
+            "value_exc_vat": 14.32,
+            "value_inc_vat": 15.036,
+            "valid_from": "2024-07-02T13:30:00Z",
+            "valid_to": "2024-07-02T14:00:00Z",
+            "payment_method": null
+        },
+        {
+            "value_exc_vat": 15.3,
+            "value_inc_vat": 16.065,
+            "valid_from": "2024-07-02T13:00:00Z",
+            "valid_to": "2024-07-02T13:30:00Z",
+            "payment_method": null
+        },
+        {
+            "value_exc_vat": 15.52,
+            "value_inc_vat": 16.296,
+            "valid_from": "2024-07-02T12:30:00Z",
+            "valid_to": "2024-07-02T13:00:00Z",
+            "payment_method": null
+        },
+        {
+            "value_exc_vat": 16.38,
+            "value_inc_vat": 17.199,
+            "valid_from": "2024-07-02T12:00:00Z",
+            "valid_to": "2024-07-02T12:30:00Z",
+            "payment_method": null
+        },
+        {
+            "value_exc_vat": 15.42,
+            "value_inc_vat": 16.191,
+            "valid_from": "2024-07-02T11:30:00Z",
+            "valid_to": "2024-07-02T12:00:00Z",
+            "payment_method": null
+        },
+        {
+            "value_exc_vat": 16.0,
+            "value_inc_vat": 16.8,
+            "valid_from": "2024-07-02T11:00:00Z",
+            "valid_to": "2024-07-02T11:30:00Z",
+            "payment_method": null
+        },
+        {
+            "value_exc_vat": 16.2,
+            "value_inc_vat": 17.01,
+            "valid_from": "2024-07-02T10:30:00Z",
+            "valid_to": "2024-07-02T11:00:00Z",
+            "payment_method": null
+        },
+        {
+            "value_exc_vat": 16.32,
+            "value_inc_vat": 17.136,
+            "valid_from": "2024-07-02T10:00:00Z",
+            "valid_to": "2024-07-02T10:30:00Z",
+            "payment_method": null
+        },
+        {
+            "value_exc_vat": 15.76,
+            "value_inc_vat": 16.548,
+            "valid_from": "2024-07-02T09:30:00Z",
+            "valid_to": "2024-07-02T10:00:00Z",
+            "payment_method": null
+        },
+        {
+            "value_exc_vat": 15.7,
+            "value_inc_vat": 16.485,
+            "valid_from": "2024-07-02T09:00:00Z",
+            "valid_to": "2024-07-02T09:30:00Z",
+            "payment_method": null
+        },
+        {
+            "value_exc_vat": 15.88,
+            "value_inc_vat": 16.674,
+            "valid_from": "2024-07-02T08:30:00Z",
+            "valid_to": "2024-07-02T09:00:00Z",
+            "payment_method": null
+        },
+        {
+            "value_exc_vat": 16.15,
+            "value_inc_vat": 16.9575,
+            "valid_from": "2024-07-02T08:00:00Z",
+            "valid_to": "2024-07-02T08:30:00Z",
+            "payment_method": null
+        },
+        {
+            "value_exc_vat": 15.98,
+            "value_inc_vat": 16.779,
+            "valid_from": "2024-07-02T07:30:00Z",
+            "valid_to": "2024-07-02T08:00:00Z",
+            "payment_method": null
+        },
+        {
+            "value_exc_vat": 16.32,
+            "value_inc_vat": 17.136,
+            "valid_from": "2024-07-02T07:00:00Z",
+            "valid_to": "2024-07-02T07:30:00Z",
+            "payment_method": null
+        },
+        {
+            "value_exc_vat": 16.6,
+            "value_inc_vat": 17.43,
+            "valid_from": "2024-07-02T06:30:00Z",
+            "valid_to": "2024-07-02T07:00:00Z",
+            "payment_method": null
+        },
+        {
+            "value_exc_vat": 13.92,
+            "value_inc_vat": 14.616,
+            "valid_from": "2024-07-02T06:00:00Z",
+            "valid_to": "2024-07-02T06:30:00Z",
+            "payment_method": null
+        },
+        {
+            "value_exc_vat": 14.8,
+            "value_inc_vat": 15.54,
+            "valid_from": "2024-07-02T05:30:00Z",
+            "valid_to": "2024-07-02T06:00:00Z",
+            "payment_method": null
+        },
+        {
+            "value_exc_vat": 12.24,
+            "value_inc_vat": 12.852,
+            "valid_from": "2024-07-02T05:00:00Z",
+            "valid_to": "2024-07-02T05:30:00Z",
+            "payment_method": null
+        },
+        {
+            "value_exc_vat": 10.8,
+            "value_inc_vat": 11.34,
+            "valid_from": "2024-07-02T04:30:00Z",
+            "valid_to": "2024-07-02T05:00:00Z",
+            "payment_method": null
+        },
+        {
+            "value_exc_vat": 10.17,
+            "value_inc_vat": 10.6785,
+            "valid_from": "2024-07-02T04:00:00Z",
+            "valid_to": "2024-07-02T04:30:00Z",
+            "payment_method": null
+        },
+        {
+            "value_exc_vat": 9.1,
+            "value_inc_vat": 9.555,
+            "valid_from": "2024-07-02T03:30:00Z",
+            "valid_to": "2024-07-02T04:00:00Z",
+            "payment_method": null
+        },
+        {
+            "value_exc_vat": 9.3,
+            "value_inc_vat": 9.765,
+            "valid_from": "2024-07-02T03:00:00Z",
+            "valid_to": "2024-07-02T03:30:00Z",
+            "payment_method": null
+        },
+        {
+            "value_exc_vat": 8.8,
+            "value_inc_vat": 9.24,
+            "valid_from": "2024-07-02T02:30:00Z",
+            "valid_to": "2024-07-02T03:00:00Z",
+            "payment_method": null
+        },
+        {
+            "value_exc_vat": 9.0,
+            "value_inc_vat": 9.45,
+            "valid_from": "2024-07-02T02:00:00Z",
+            "valid_to": "2024-07-02T02:30:00Z",
+            "payment_method": null
+        },
+        {
+            "value_exc_vat": 8.7,
+            "value_inc_vat": 9.135,
+            "valid_from": "2024-07-02T01:30:00Z",
+            "valid_to": "2024-07-02T02:00:00Z",
+            "payment_method": null
+        },
+        {
+            "value_exc_vat": 8.8,
+            "value_inc_vat": 9.24,
+            "valid_from": "2024-07-02T01:00:00Z",
+            "valid_to": "2024-07-02T01:30:00Z",
+            "payment_method": null
+        },
+        {
+            "value_exc_vat": 9.0,
+            "value_inc_vat": 9.45,
+            "valid_from": "2024-07-02T00:30:00Z",
+            "valid_to": "2024-07-02T01:00:00Z",
+            "payment_method": null
+        },
+        {
+            "value_exc_vat": 8.66,
+            "value_inc_vat": 9.093,
+            "valid_from": "2024-07-02T00:00:00Z",
+            "valid_to": "2024-07-02T00:30:00Z",
+            "payment_method": null
+        },
+        {
+            "value_exc_vat": 9.0,
+            "value_inc_vat": 9.45,
+            "valid_from": "2024-07-01T23:30:00Z",
+            "valid_to": "2024-07-02T00:00:00Z",
+            "payment_method": null
+        },
+        {
+            "value_exc_vat": 9.94,
+            "value_inc_vat": 10.437,
+            "valid_from": "2024-07-01T23:00:00Z",
+            "valid_to": "2024-07-01T23:30:00Z",
+            "payment_method": null
+        },
+        {
+            "value_exc_vat": 10.17,
+            "value_inc_vat": 10.6785,
+            "valid_from": "2024-07-01T22:30:00Z",
+            "valid_to": "2024-07-01T23:00:00Z",
+            "payment_method": null
+        },
+        {
+            "value_exc_vat": 14.12,
+            "value_inc_vat": 14.826,
+            "valid_from": "2024-07-01T22:00:00Z",
+            "valid_to": "2024-07-01T22:30:00Z",
+            "payment_method": null
+        },
+        {
+            "value_exc_vat": 14.66,
+            "value_inc_vat": 15.393,
+            "valid_from": "2024-07-01T21:30:00Z",
+            "valid_to": "2024-07-01T22:00:00Z",
+            "payment_method": null
+        },
+        {
+            "value_exc_vat": 17.0,
+            "value_inc_vat": 17.85,
+            "valid_from": "2024-07-01T21:00:00Z",
+            "valid_to": "2024-07-01T21:30:00Z",
+            "payment_method": null
+        },
+        {
+            "value_exc_vat": 16.44,
+            "value_inc_vat": 17.262,
+            "valid_from": "2024-07-01T20:30:00Z",
+            "valid_to": "2024-07-01T21:00:00Z",
+            "payment_method": null
+        },
+        {
+            "value_exc_vat": 17.29,
+            "value_inc_vat": 18.1545,
+            "valid_from": "2024-07-01T20:00:00Z",
+            "valid_to": "2024-07-01T20:30:00Z",
+            "payment_method": null
+        },
+        {
+            "value_exc_vat": 17.28,
+            "value_inc_vat": 18.144,
+            "valid_from": "2024-07-01T19:30:00Z",
+            "valid_to": "2024-07-01T20:00:00Z",
+            "payment_method": null
+        },
+        {
+            "value_exc_vat": 18.6,
+            "value_inc_vat": 19.53,
+            "valid_from": "2024-07-01T19:00:00Z",
+            "valid_to": "2024-07-01T19:30:00Z",
+            "payment_method": null
+        },
+        {
+            "value_exc_vat": 18.02,
+            "value_inc_vat": 18.921,
+            "valid_from": "2024-07-01T18:30:00Z",
+            "valid_to": "2024-07-01T19:00:00Z",
+            "payment_method": null
+        }
+    ]
+}

@@ -1,0 +1,193 @@
+economy_type,timestamp,unit_price
+Fixed,00:30:00,0.29
+Fixed,01:00:00,0.29
+Fixed,01:30:00,0.29
+Fixed,02:00:00,0.29
+Fixed,02:30:00,0.29
+Fixed,03:00:00,0.29
+Fixed,03:30:00,0.29
+Fixed,04:00:00,0.29
+Fixed,04:30:00,0.29
+Fixed,05:00:00,0.29
+Fixed,05:30:00,0.29
+Fixed,06:00:00,0.29
+Fixed,06:30:00,0.29
+Fixed,07:00:00,0.29
+Fixed,07:30:00,0.29
+Fixed,08:00:00,0.29
+Fixed,08:30:00,0.29
+Fixed,09:00:00,0.29
+Fixed,09:30:00,0.29
+Fixed,10:00:00,0.29
+Fixed,10:30:00,0.29
+Fixed,11:00:00,0.29
+Fixed,11:30:00,0.29
+Fixed,12:00:00,0.29
+Fixed,12:30:00,0.29
+Fixed,13:00:00,0.29
+Fixed,13:30:00,0.29
+Fixed,14:00:00,0.29
+Fixed,14:30:00,0.29
+Fixed,15:00:00,0.29
+Fixed,15:30:00,0.29
+Fixed,16:00:00,0.29
+Fixed,16:30:00,0.29
+Fixed,17:00:00,0.29
+Fixed,17:30:00,0.29
+Fixed,18:00:00,0.29
+Fixed,18:30:00,0.29
+Fixed,19:00:00,0.29
+Fixed,19:30:00,0.29
+Fixed,20:00:00,0.29
+Fixed,20:30:00,0.29
+Fixed,21:00:00,0.29
+Fixed,21:30:00,0.29
+Fixed,22:00:00,0.29
+Fixed,22:30:00,0.29
+Fixed,23:00:00,0.29
+Fixed,23:30:00,0.29
+Fixed,00:00:00,0.29
+Economy 5,00:30:00,0.08988
+Economy 5,01:00:00,0.08988
+Economy 5,01:30:00,0.08988
+Economy 5,02:00:00,0.08988
+Economy 5,02:30:00,0.08988
+Economy 5,03:00:00,0.08988
+Economy 5,03:30:00,0.08988
+Economy 5,04:00:00,0.08988
+Economy 5,04:30:00,0.08988
+Economy 5,05:00:00,0.08988
+Economy 5,05:30:00,0.288
+Economy 5,06:00:00,0.288
+Economy 5,06:30:00,0.288
+Economy 5,07:00:00,0.288
+Economy 5,07:30:00,0.288
+Economy 5,08:00:00,0.288
+Economy 5,08:30:00,0.288
+Economy 5,09:00:00,0.288
+Economy 5,09:30:00,0.288
+Economy 5,10:00:00,0.288
+Economy 5,10:30:00,0.288
+Economy 5,11:00:00,0.288
+Economy 5,11:30:00,0.288
+Economy 5,12:00:00,0.288
+Economy 5,12:30:00,0.288
+Economy 5,13:00:00,0.288
+Economy 5,13:30:00,0.288
+Economy 5,14:00:00,0.288
+Economy 5,14:30:00,0.288
+Economy 5,15:00:00,0.288
+Economy 5,15:30:00,0.288
+Economy 5,16:00:00,0.288
+Economy 5,16:30:00,0.288
+Economy 5,17:00:00,0.288
+Economy 5,17:30:00,0.288
+Economy 5,18:00:00,0.288
+Economy 5,18:30:00,0.288
+Economy 5,19:00:00,0.288
+Economy 5,19:30:00,0.288
+Economy 5,20:00:00,0.288
+Economy 5,20:30:00,0.288
+Economy 5,21:00:00,0.288
+Economy 5,21:30:00,0.288
+Economy 5,22:00:00,0.288
+Economy 5,22:30:00,0.288
+Economy 5,23:00:00,0.288
+Economy 5,23:30:00,0.288
+Economy 5,00:00:00,0.288
+Economy 7,00:30:00,0.08988
+Economy 7,01:00:00,0.08988
+Economy 7,01:30:00,0.08988
+Economy 7,02:00:00,0.08988
+Economy 7,02:30:00,0.08988
+Economy 7,03:00:00,0.08988
+Economy 7,03:30:00,0.08988
+Economy 7,04:00:00,0.08988
+Economy 7,04:30:00,0.08988
+Economy 7,05:00:00,0.08988
+Economy 7,05:30:00,0.08988
+Economy 7,06:00:00,0.08988
+Economy 7,06:30:00,0.08988
+Economy 7,07:00:00,0.08988
+Economy 7,07:30:00,0.288
+Economy 7,08:00:00,0.288
+Economy 7,08:30:00,0.288
+Economy 7,09:00:00,0.288
+Economy 7,09:30:00,0.288
+Economy 7,10:00:00,0.288
+Economy 7,10:30:00,0.288
+Economy 7,11:00:00,0.288
+Economy 7,11:30:00,0.288
+Economy 7,12:00:00,0.288
+Economy 7,12:30:00,0.288
+Economy 7,13:00:00,0.288
+Economy 7,13:30:00,0.288
+Economy 7,14:00:00,0.288
+Economy 7,14:30:00,0.288
+Economy 7,15:00:00,0.288
+Economy 7,15:30:00,0.288
+Economy 7,16:00:00,0.288
+Economy 7,16:30:00,0.288
+Economy 7,17:00:00,0.288
+Economy 7,17:30:00,0.288
+Economy 7,18:00:00,0.288
+Economy 7,18:30:00,0.288
+Economy 7,19:00:00,0.288
+Economy 7,19:30:00,0.288
+Economy 7,20:00:00,0.288
+Economy 7,20:30:00,0.288
+Economy 7,21:00:00,0.288
+Economy 7,21:30:00,0.288
+Economy 7,22:00:00,0.288
+Economy 7,22:30:00,0.288
+Economy 7,23:00:00,0.288
+Economy 7,23:30:00,0.288
+Economy 7,00:00:00,0.288
+Octopus Agile,00:00:00,0.09093
+Octopus Agile,00:30:00,0.0944999999999999
+Octopus Agile,01:00:00,0.0924
+Octopus Agile,01:30:00,0.09135
+Octopus Agile,02:00:00,0.0944999999999999
+Octopus Agile,02:30:00,0.0924
+Octopus Agile,03:00:00,0.09765
+Octopus Agile,03:30:00,0.09555
+Octopus Agile,04:00:00,0.1067849999999999
+Octopus Agile,04:30:00,0.1134
+Octopus Agile,05:00:00,0.12852
+Octopus Agile,05:30:00,0.1553999999999999
+Octopus Agile,06:00:00,0.1461599999999999
+Octopus Agile,06:30:00,0.1743
+Octopus Agile,07:00:00,0.1713599999999999
+Octopus Agile,07:30:00,0.16779
+Octopus Agile,08:00:00,0.169575
+Octopus Agile,08:30:00,0.16674
+Octopus Agile,09:00:00,0.16485
+Octopus Agile,09:30:00,0.16548
+Octopus Agile,10:00:00,0.1713599999999999
+Octopus Agile,10:30:00,0.1701
+Octopus Agile,11:00:00,0.168
+Octopus Agile,11:30:00,0.16191
+Octopus Agile,12:00:00,0.17199
+Octopus Agile,12:30:00,0.16296
+Octopus Agile,13:00:00,0.16065
+Octopus Agile,13:30:00,0.15036
+Octopus Agile,14:00:00,0.15435
+Octopus Agile,14:30:00,0.1627499999999999
+Octopus Agile,15:00:00,0.300825
+Octopus Agile,15:30:00,0.3045
+Octopus Agile,16:00:00,0.3045
+Octopus Agile,16:30:00,0.336
+Octopus Agile,17:00:00,0.336
+Octopus Agile,17:30:00,0.336
+Octopus Agile,18:00:00,0.2068499999999999
+Octopus Agile,18:30:00,0.18921
+Octopus Agile,19:00:00,0.1953
+Octopus Agile,19:30:00,0.18144
+Octopus Agile,20:00:00,0.1815449999999999
+Octopus Agile,20:30:00,0.17262
+Octopus Agile,21:00:00,0.1785
+Octopus Agile,21:30:00,0.15393
+Octopus Agile,22:00:00,0.14826
+Octopus Agile,22:30:00,0.1067849999999999
+Octopus Agile,23:00:00,0.1043699999999999
+Octopus Agile,23:30:00,0.0944999999999999

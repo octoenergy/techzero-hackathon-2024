@@ -1,0 +1,38 @@
+{
+    "account_id": "A-1234567890",
+    "meter_point": {
+      "mpan": "1234567890123",
+      "meter_serial_number": "20P1234567"
+    },
+    "reading_type": "electricity",
+    "readings": [
+      {
+        "timestamp": "2024-07-01T00:00:00Z",
+        "consumption": 0.412,
+        "unit": "kWh"
+      },
+      {
+        "timestamp": "2024-07-01T00:30:00Z",
+        "consumption": 0.389,
+        "unit": "kWh"
+      },
+      {
+        "timestamp": "2024-07-01T01:00:00Z",
+        "consumption": 0.401,
+        "unit": "kWh"
+      }
+    ],
+    "tariff": {
+      "name": "Octopus Go",
+      "current_rate": 0.1452,
+      "currency": "GBP",
+      "unit": "per kWh"
+    },
+    "total_daily_consumption": 9.876,
+    "total_daily_cost": 1.43,
+    "carbon_intensity": {
+      "value": 185,
+      "unit": "gCO2/kWh"
+    },
+    "last_updated": "2024-07-01T01:05:23Z"
+  }

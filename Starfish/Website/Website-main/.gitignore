@@ -1,0 +1,38 @@
+# Ignore npm debug log
+npm-debug.log*
+
+# Ignore Next.js build output
+.next/
+out/
+
+# Ignore serverless build output
+.serverless/
+
+
+# Ignore environment variables file
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Ignore IDE files
+.idea/
+.vscode/
+
+# Ignore macOS specific files
+.DS_Store
+
+# Ignore node_modules except if in the root
+node_modules/
+**/node_modules/
+
+# Ignore build artifacts and log files
+*.log
+*.tsbuildinfo
+
+# Ignore coverage output
+coverage/
+
+# Ignore OS generated files
+ehthumbs.db
+Thumbs.db

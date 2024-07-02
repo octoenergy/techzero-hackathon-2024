@@ -1,0 +1,6 @@
+modal==0.63.22
+pandas
+openmeteo_requests
+requests_cache
+retry_requests
+requests

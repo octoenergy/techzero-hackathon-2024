@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comparison Table</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet">
+    <style>
+        /* Optional: Additional CSS styling */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #ffffff;
+            color: #333333;
+            margin: 0; /* Remove default margin */
+            padding: 10px; /* Add padding to body if needed */
+        }
+        .container {
+            background-color: #f0f0f0;
+            padding: 0px;
+            border-radius: 0px;
+            overflow-x: auto; /* Enable horizontal scrolling */
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 0px;
+        }
+        th, td {
+            padding: 8px;
+            text-align: center;
+            border: 1px solid #dddddd;
+        }
+        th {
+            background-color: #f0f0f0;
+        }
+        .recommended {
+            background-color: #c6f6d5; /* Light green */
+        }
+        .as-is {
+            background-color: #fcbfcb; /* Light pink */
+        }
+    </style>
+</head> 
+<body>
+    <div class="container">
+        <table>
+            <thead>
+                <tr>
+                    <th class="recommended">Key Performance Indicators</th>
+                    <th class="recommended">Current</th>
+                    <th class="recommended">Recommended</th>
+                    <th class="recommended">Savings</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Upfront Cost (£)</td>
+                    <td>4405.99</td>
+                    <td>8000.00</td>
+                    <td>-5794.01</td>
+                </tr>
+                <tr>
+                    <td>Lifetime (Yrs)</td>
+                    <td>10.0</td>
+                    <td>20.0</td>
+                    <td>0.0</td>
+                </tr>
+                <tr>
+                    <td>Maintenance (£)</td>
+                    <td>6.0</td>
+                    <td>8.97</td>
+                    <td>-2.97</td>
+                </tr>
+                <tr>
+                    <td>Total Annual Cost (£)</td>
+                    <td>4925.77</td>
+                    <td>3189.62</td>
+                    <td>1736.15</td>
+                </tr>
+                <tr>
+                    <td>Total CO2 Emissions (kg)</td>
+                    <td>304.92</td>
+                    <td>258.29</td>
+                    <td>46.62</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>

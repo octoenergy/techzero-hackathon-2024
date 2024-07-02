@@ -1,0 +1,87 @@
+{
+    "club_id": "WEST-CEB-001",
+    "name": "Westminster Solar Collective",
+    "borough": "City of Westminster",
+    "members": {
+      "total": 250,
+      "with_solar_installations": 75
+    },
+    "solar_energy_data": {
+      "reporting_period": {
+        "start": "2024-07-01T00:00:00+01:00",
+        "end": "2024-07-31T23:59:59+01:00"
+      },
+      "total_generation_kwh": 45678.90,
+      "average_generation_per_installation_kwh": 609.05,
+      "peak_generation_day": {
+        "date": "2024-07-15",
+        "generation_kwh": 2345.67
+      }
+    },
+    "grid_interaction": {
+      "energy_exported_to_grid_kwh": 15678.90,
+      "energy_imported_from_grid_kwh": 130250.45
+    },
+    "solar_tariff": {
+      "export_rate": 0.15,
+      "smart_export_guarantee_rate": 0.07,
+      "currency": "GBP"
+    },
+    "community_solar_projects": [
+      {
+        "name": "Westminster Roof Solar",
+        "location": "City Hall Roof",
+        "capacity_kw": 50,
+        "annual_generation_kwh": 45000,
+        "installation_date": "2023-05-15"
+      },
+      {
+        "name": "Solar for Schools",
+        "description": "Installing solar panels on 5 local school roofs",
+        "total_capacity_kw": 200,
+        "status": "In progress",
+        "expected_completion": "2024-12-31"
+      }
+    ],
+    "battery_storage": {
+      "total_capacity_kwh": 500,
+      "current_charge_percentage": 75,
+      "average_daily_utilization_kwh": 350
+    },
+    "carbon_reduction": {
+      "from_solar_generation_tonnes_co2": 19.84,
+      "percentage_of_total_consumption": "26%"
+    },
+    "solar_installation_program": {
+      "waiting_list": 30,
+      "next_bulk_purchase_date": "2024-09-01",
+      "approved_installers": [
+        "SunPower London",
+        "Westminster Solar Solutions"
+      ]
+    },
+    "solar_education_initiatives": [
+      {
+        "name": "Solar 101 Workshop",
+        "next_date": "2024-08-20T18:00:00+01:00",
+        "location": "Westminster Community Center"
+      },
+      {
+        "name": "Kids Solar Science Fair",
+        "date": "2024-10-15",
+        "venue": "Hyde Park"
+      }
+    ],
+    "solar_performance_monitoring": {
+      "platform": "SolarEdge",
+      "public_dashboard_url": "https://westminstersolar.com/live-data"
+    },
+    "future_solar_projects": [
+      {
+        "name": "Floating Solar on Serpentine Lake",
+        "status": "Feasibility study",
+        "potential_capacity_kw": 500
+      }
+    ],
+    "last_updated": "2024-08-01T09:30:15+01:00"
+  }
