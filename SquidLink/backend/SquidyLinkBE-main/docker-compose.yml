@@ -1,0 +1,43 @@
+---
+
+services:
+  squidlink-app:
+    container_name: squidlink-app
+    restart: unless-stopped
+    depends_on:
+      - squidlink-db
+    build:
+      context: .
+      dockerfile: ./docker/app.Dockerfile
+    env_file:
+      - .env
+    ports:
+      - "127.0.0.1:8000:8000"
+    volumes:
+      - ./docker/Caddyfile:/app/Caddyfile:ro
+      - ./squidlink:/app/squidlink:ro
+      - ./data_csv:/app/csv:ro
+
+  squidlink-db:
+    container_name: squidlink-db
+    restart: unless-stopped
+    image: postgres:alpine
+    env_file:
+      - .env
+    expose:
+      - ${POSTGRES_PORT}
+    volumes:
+      - ./.data/db:/var/lib/postgresql/data
+
+  squidlink-pgweb:
+    container_name: squidlink-pgweb
+    restart: unless-stopped
+    image: sosedoff/pgweb
+    depends_on:
+      - squidlink-db
+    ports:
+      - "127.0.0.1:8001:8081"
+    environment:
+      PGWEB_DATABASE_URL: postgres://${POSTGRES_USER}:${POSTGRES_PASSWORD}@squidlink-db:${POSTGRES_PORT}/${POSTGRES_DB}?sslmode=disable
+
+...

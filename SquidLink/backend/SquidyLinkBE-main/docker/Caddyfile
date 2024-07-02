@@ -1,0 +1,7 @@
+:8000 {
+    reverse_proxy localhost:8080
+    log {
+        output stderr
+        format console
+    }
+}

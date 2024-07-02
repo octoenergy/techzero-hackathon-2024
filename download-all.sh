@@ -14,7 +14,7 @@ function download {
 
 
     if [ "$#" -eq 2 ]; then
-        download_to_folder "$TEAM" frontend "$REPO1"
+        download_to_folder "$TEAM" main "$REPO1"
 
     elif [ "$#" -eq 3 ]; then
         local REPO2=$3
@@ -37,7 +37,13 @@ function download {
 function download_to_folder {
     local TEAM="$1"
     local FOLDER="$2"
-    local URL="$3/archive/refs/heads/main.zip"
+    if [[ "$TEAM" ==  "EcoCompass" ]]; then
+        local URL="$3/archive/refs/heads/master.zip"
+    elif [[ "$TEAM" ==  "SquidLink" ]]; then
+        local URL="$3/archive/refs/heads/master.zip"
+    else
+        local URL="$3/archive/refs/heads/main.zip"
+    fi
     mkdir -p "$TEAM/$FOLDER"
     curl -L "$URL" > "$TEAM-$FOLDER.zip"
 
@@ -45,9 +51,11 @@ function download_to_folder {
     rm "$TEAM-$FOLDER.zip"
 }
 
-download "FlexiSquid" https://github.com/KnightNight101/Komodo_Hackathon
-download "FEIR" https://github.com/immo-huneke-zuhlke/projectfeir
-download "OctoWatt" https://github.com/octopus-game/octogame https://github.com/octopus-game/octopus-game-backend
-
-download "Starfish" https://github.com/StarFishEnergy/Website https://github.com/StarFishEnergy/StarFishEnergy https://github.com/StarFishEnergy/StarfishExchange
-download "PaybackTime" https://github.com/hkl19/paybacktime
+# download "FlexiSquid" https://github.com/KnightNight101/Komodo_Hackathon
+# download "FEIR" https://github.com/immo-huneke-zuhlke/projectfeir
+# download "OctoWatt" https://github.com/octopus-game/octogame https://github.com/octopus-game/octopus-game-backend
+# download "Starfish" https://github.com/StarFishEnergy/Website https://github.com/StarFishEnergy/StarFishEnergy https://github.com/StarFishEnergy/StarfishExchange
+# download "PaybackTime" https://github.com/hkl19/paybacktime
+# download "Solstice" https://github.com/kraken-hack-24/solstice
+download "EcoCompass" https://github.com/moagli/teamtwo
+download "SquidLink" https://github.com/SquidyLink/SquidyLinkFE https://github.com/SquidyLink/SquidyLinkBE

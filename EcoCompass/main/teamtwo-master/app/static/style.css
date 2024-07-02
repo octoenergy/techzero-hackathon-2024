@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.top-left {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.top-left img {
+    width: 25px; /* Adjust the size as needed */
+    height: 25px;
+}
+
+.top-right {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.top-right img {
+    width: 5px; /* Adjust the size as needed */
+    height: 5px;
+}

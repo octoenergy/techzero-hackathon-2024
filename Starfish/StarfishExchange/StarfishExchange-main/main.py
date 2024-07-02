@@ -210,12 +210,12 @@ def get():
         Option("Neural Network (PyTorch)", value="nnpytorch"),
         Option("Other", value="other"),
         id="algo-select",
-        style="width: 60%;",
+        style="width: 100%;",
         onchange="loadAlgo()",
       ),
     ),
     Section(
-      Textarea(algos[0]["code"], id="algo-input", style="width: 60%; height: 400px;", placeholder="energy buy/sell algo loading..."),
+      Textarea(algos[0]["code"], id="algo-input", style="width: 100%; height: 400px;", placeholder="energy buy/sell algo loading..."),
       Button("Save", onclick="save()")
     ),
     Script(f"""

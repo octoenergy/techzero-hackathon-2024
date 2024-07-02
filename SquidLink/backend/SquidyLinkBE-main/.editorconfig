@@ -1,0 +1,49 @@
+root = true
+
+# Global defaults
+[*]
+charset = utf-8
+end_of_line = lf
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+# File-specific settings
+[*Caddyfile]
+indent_style = tab
+indent_size = 4
+
+[*Dockerfile]
+indent_style = space
+indent_size = 4
+
+[*.{conf,env,ini}]
+indent_style = space
+indent_size = 4
+
+[*.{djhtml,html,jinja2,svg,xhtml,xml}]
+indent_style = space
+indent_size = 2
+
+[*.{js,json,ts}]
+indent_style = space
+indent_size = 2
+
+[*.{md}]
+indent_style = space
+indent_size = 2
+
+[*.{nix}]
+indent_style = space
+indent_size = 2
+
+[*.py]
+indent_style = space
+indent_size = 4
+
+[*.{css,scss}]
+indent_style = space
+indent_size = 2
+
+[*.{yaml,yml}]
+indent_style = space
+indent_size = 2

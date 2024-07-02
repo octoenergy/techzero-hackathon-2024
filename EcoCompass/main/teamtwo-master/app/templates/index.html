@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>EcoCompass</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f8ff;
+            margin: 0;
+            padding: 20px;
+            color: #333;
+        }
+
+        h1,
+        h2 {
+            color: #005f5f;
+        }
+
+        form {
+            margin-bottom: 20px;
+        }
+
+        input[type="file"] {
+            margin: 10px 0;
+        }
+
+        input[type="submit"] {
+            background-color: #005f5f;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #004f4f;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        th,
+        td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+
+        th {
+            background-color: #005f5f;
+            color: white;
+        }
+
+        a {
+            color: #005f5f;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div style="position: absolute; top: 10; right: 0; padding: 10px;">
+            <img src="{{ url_for('static', filename='images/logo.001.png') }}" alt="EcoCompass Logo" width="250">
+        </div>
+        <div style="position: absolute; top: 10px; left: 50%; transform: translateX(-50%); padding: 10px;">
+            <!-- Gauge Image -->
+            <img src="{{ url_for('static', filename=image_filename) }}" alt="Gauge Image" width="400">
+        </div>
+    </header>
+
+    <h1>EcoCompass</h1>
+    <h2>Upload New Data</h2>
+    <form action="{{ url_for('index') }}" method="post" enctype="multipart/form-data">
+        <input type="file" name="file" required>
+        <input type="submit" value="Upload">
+    </form>
+
+    <h2>Top 10 CO2 Emissions</h2>
+    <table>
+        <tr>
+            <th>Date</th>
+            <th>Merchant</th>
+            <th>Category</th>
+
+            <th>Total CO2 Emissions</th>
+        </tr>
+        {% for index, row in data.iterrows() %}
+        <tr>
+            <td>{{ row['date'] }}</td>
+            <td>{{ row['counterparty'] }}</td>
+            <td>{{ row['eco_cat'] }}</td>
+
+            <td>{{ row['eco_co2'] }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+    <div>
+        <h3>Recommendations to Lower Your Carbon Footprint</h3>
+        <ol>
+            <li>Shop at Tesco and choose products with lower carbon footprints. Tesco has implemented initiatives to
+                help customers identify and purchase more sustainable options.</li>
+            <li>Reduce your meat and dairy consumption. The production of animal-based products has a significant impact
+                on greenhouse gas emissions.</li>
+            <li>Reduce your energy usage at home by switching to energy-efficient appliances, installing insulation, and
+                considering renewable energy sources like solar panels.</li>
+        </ol>
+    </div>
+    <h1>Monthly CO2 Emissions</h1>
+    <a href="{{ url_for('detail') }}">Detailed View</a>
+    <h1>Company Comparisons</h1>
+    <a href="{{ url_for('company') }}">Detailed View</a>
+</body>
+
+</html>

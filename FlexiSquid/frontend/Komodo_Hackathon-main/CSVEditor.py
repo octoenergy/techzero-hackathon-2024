@@ -75,6 +75,7 @@ A_sum = A['Carbon Intensity'].sum()
 C = A['Agile Import price (p/kWh)'].sum()
 
 CostSavings = C - D
+CostSavingsPounds = CostSavings/100
 
 
 print("Sum of Carbon Intensity for the lowest 48 rows within the defined range:", B_sum)
@@ -89,6 +90,7 @@ E = Date_Range.head(48)
 E_Sum = E['Agile Import price (p/kWh)'].sum()
 H = E['Carbon Intensity'].sum()
 CarbonSavings = H - G
+CarbonSavingsKG = CarbonSavings/1000
 
 
 print("Sum of Carbon Intensity for the lowest 48 rows within the defined range:", F_sum)
@@ -97,13 +99,13 @@ print("Cost saved by optimising for Carbon Emission:", CarbonSavings)
 
 # Adding Savings calculations to CSV. PLEASE CHANGE TO MAKE THIS DYNAMIC. 
 
-MainData['Carbon Optimised Emission'] = B_sum
-MainData['Carbon Unoptimised Emission'] = A_sum
-MainData['Carbon Optimised Cost Savings'] = CostSavings
+MainData['Carbon Optimised Emission'] = B_sum/1000
+MainData['Carbon Unoptimised Emission'] = A_sum/1000
+MainData['Carbon Optimised Cost Savings'] = CostSavingsPounds
 
-MainData['Price Optimised Cost'] = B_sum
-MainData['Price Unoptimised Cost'] = A_sum
-MainData['Price Optimised Emission Savings'] = CarbonSavings
+MainData['Price Optimised Cost'] = F_sum/100
+MainData['Price Unoptimised Cost'] = E_Sum/100
+MainData['Price Optimised Emission Savings'] = CarbonSavingsKG
 
 # Save to CSV
 
