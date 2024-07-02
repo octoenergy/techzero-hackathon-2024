@@ -1,0 +1,59 @@
+PROPERTY_TYPE,Ofgem industry,Energy intensity
+A1/A2 Retail and Financial/Professional services,Shops,84
+Retail/Financial and Professional Services,Shops,84
+Retail,Shops,84
+Office,Offices,59
+Offices and Workshop Businesses,Offices,59
+B2 to B7 General Industrial and Special Industrial Groups,Factories,30
+Restaurants and Cafes/Drinking Establishments/Takeaways,Hospitality,111
+B1 Offices and Workshop businesses,Offices,59
+C1 Hotels,Hospitality,111
+C2 Residential Institutions - Universities and colleges,Education,51
+A3/A4/A5 Restaurant and Cafes/Drinking Establishments and Hot Food takeaways,Hospitality,111
+B8 Storage or Distribution,Warehouses,27
+D1 Non-residential Institutions - Primary Health Care Building,Health,81
+Residential Institutions: Universities and Colleges,Education,51
+Dwelling,Other,43
+C2 Residential Institutions - Hospitals and Care Homes,Health,81
+D2 General Assembly and Leisure plus Night Clubs and Theatres,Hospitality,111
+Hotels,Hospitality,111
+Restaurant/public house,Hospitality,111
+"General Assembly and Leisure, Night Clubs, and Theatres",Hospitality,111
+Residential Spaces,Other,43
+Hotel,Hospitality,111
+D1 Non-residential Institutions - Community/Day Centre,"Arts, Community and Leisure",18
+Non-residential Institutions: Community/Day Centre,"Arts, Community and Leisure",18
+D1 Non-residential Institutions - Education,Education,51
+Non-residential Institutions: Education,Education,51
+Non-residential Institutions: Primary Health Care Building,Health,81
+Warehouse and storage,Warehouses,27
+Others - Miscellaneous 24hr activities,Other,43
+Residential spaces,Health,81
+Others: Miscellaneous 24hr Activities,Other,43
+General Industrial and Special Industrial Groups,Factories,30
+Secondary school,Education,51
+Storage or Distribution,Warehouses,27
+Workshops/maintenance depot,Factories,30
+Primary school,Education,51
+Theatres/cinemas/music halls and auditoria,"Arts, Community and Leisure",18
+Primary health care buildings,Health,81
+Further education universities,Education,51
+D1 Non-residential Institutions - Libraries Museums and Galleries,"Arts, Community and Leisure",18
+Emergency services,Health,81
+Social clubs,"Arts, Community and Leisure",18
+Community/day centre,"Arts, Community and Leisure",18
+Residential Institutions: Hospitals and Care Homes,Health,81
+Sports centre/leisure centre,"Arts, Community and Leisure",18
+C2 Residential Institutions - Residential schools,Education,51
+Retail warehouses,Warehouses,27
+Nursing residential homes and hostels,Health,81
+D1 Non-residential Institutions - Crown and County Courts,"Arts, Community and Leisure",18
+Hospital,Health,81
+Others - Passenger terminals,Other,43
+Others - Emergency services,Health,81
+Others: Emergency Services,Health,81
+Residential Institutions: Residential Schools,Education,51
+Secure Residential Institutions,Health,81
+C2A Secure Residential Institutions,Health,81
+Industrial process building,Factories,30
+Launderette,Health,81
