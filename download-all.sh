@@ -12,12 +12,9 @@ function download {
         mv "$TEAM" /tmp
     fi
 
-    if [ "$#" -eq 2 ]; then
-        mkdir -p "$TEAM"
-        curl -L "$REPO1/archive/refs/heads/main.zip" > "$TEAM.zip"
 
-        unzip "$TEAM.zip" -d "$TEAM"
-        rm "$TEAM.zip"
+    if [ "$#" -eq 2 ]; then
+        download_to_folder "$TEAM" frontend "$REPO1"
 
     elif [ "$#" -eq 3 ]; then
         local REPO2=$3
@@ -53,3 +50,4 @@ download "FEIR" https://github.com/immo-huneke-zuhlke/projectfeir
 download "OctoWatt" https://github.com/octopus-game/octogame https://github.com/octopus-game/octopus-game-backend
 
 download "Starfish" https://github.com/StarFishEnergy/Website https://github.com/StarFishEnergy/StarFishEnergy https://github.com/StarFishEnergy/StarfishExchange
+download "PaybackTime" https://github.com/hkl19/paybacktime
