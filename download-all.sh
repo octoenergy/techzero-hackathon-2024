@@ -1,10 +1,21 @@
 
-if [ -d team-3-FlexiSquid ]; then
+if [ -d FlexiSquid ]; then
     # backup
-    mv team-3-FlexiSquid /tmp
+    mv FlexiSquid /tmp
 fi
-mkdir team-3-FlexiSquid
-curl -L https://github.com/KnightNight101/Komodo_Hackathon/archive/refs/heads/main.zip > team3.zip
-unzip team3.zip -d team-3-FlexiSquid
-rm team3.zip
+mkdir FlexiSquid
+curl -L https://github.com/KnightNight101/Komodo_Hackathon/archive/refs/heads/main.zip > FlexiSquid.zip
+unzip FlexiSquid.zip -d FlexiSquid
+rm FlexiSquid.zip
+
+o
+
+if [ -d projectfeir ]; then
+    # backup
+    mv projectfeir /tmp
+fi
+mkdir projectfeir
+curl -L https://github.com/immo-huneke-zuhlke/projectfeir/archive/refs/heads/main.zip > projectfeir.zip
+unzip projectfeir.zip -d projectfeir
+rm projectfeir.zip
 
