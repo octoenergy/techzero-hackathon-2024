@@ -12,6 +12,7 @@ enum TenureEnum {
 }
 
 export interface Property {
+  _id: any;
   uprn: string;
   address_1: string;
   address_2: string;

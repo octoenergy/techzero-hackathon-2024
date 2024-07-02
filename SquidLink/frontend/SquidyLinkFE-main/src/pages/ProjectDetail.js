@@ -218,14 +218,15 @@ export default function Example() {
             <div className="flex mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8">
 
               <iframe src="http://localhost:8000/facility/3/avg-elec-data" width="100%" height="500px"></iframe>
-              <div class="w-full self-center">
-                Based on your daily average profile, you would benefit from installing PV panels on your facility as most of your consumption happens during the day.
+              <div class="w-full self-center text-xl mx-3">
+    Based on your daily average profile, you would benefit from installing PV panels on your facility as most of your consumption happens during the day.
+</div>
 
-              </div>
+
             </div>
             <div className="flex mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8">
               <iframe src="http://localhost:8000/facility/3/avg-elec-and-carbon-data" width="100%" height="500px"></iframe>
-              <div class="w-full self-center">
+              <div class="w-full self-center text-xl mx-3">
                 You are consuming electricity during high emissions hours. You could reduce your carbon footprint by shifting your consumption to low emissions hours. This could be achieved by adjusting your working hours and/or installing batteries.
               </div>
             </div>

@@ -1,5 +1,5 @@
 "use client";
-import { MapContainer, TileLayer, Marker, Popup, useMap } from 'react-leaflet'
+import { MapContainer, TileLayer } from 'react-leaflet'
 import 'leaflet/dist/leaflet.css';
 import "leaflet-defaulticon-compatibility"
 import "leaflet-defaulticon-compatibility/dist/leaflet-defaulticon-compatibility.css"
@@ -15,32 +15,30 @@ import 'next-leaflet-cluster/lib/assets/marker-shadow.png'
 import { Property } from '../../models/property.model';
 import { useMapContext } from '@/contexts/mapdata/useMapContext';
 import PropertyMarker from './PropertyMarker';
+
+
 const LeafletMap = () => {
-    
-    const {data} = useMapContext();
+    const { data, setMap } = useMapContext();
+
     return (
+        <>
+            <MapContainer ref={setMap} center={[51.505, -0.09]} zoom={13} scrollWheelZoom={true} className='rounded-lg'>
+                <TileLayer
+                    attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+                    url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+                />
 
-        <MapContainer center={[51.505, -0.09]} zoom={13} scrollWheelZoom={true} className='rounded-lg'>
-            <TileLayer
-                attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-                url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
-            />
+                <MarkerClusterGroup>
 
-            <MarkerClusterGroup>
-            
-            {data ? data?.map((property: Property) => {
-                // return null
-                return (
-                    <PropertyMarker property={property}/>
-                );
-            }) : null}
-            {/* <Marker position={[51.505, -0.09]} >
-                <Popup>
-                    A Property
-                </Popup>
-            </Marker> */}
-            </MarkerClusterGroup>
-        </MapContainer>
+                    {data ? data?.map((property: Property) => {
+                        // return null
+                        return (
+                            <PropertyMarker property={property} />
+                        );
+                    }) : null}
+                </MarkerClusterGroup>
+            </MapContainer>
+        </>
     );
 }
 

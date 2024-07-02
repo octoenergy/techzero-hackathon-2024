@@ -19,10 +19,15 @@ export default function RootLayout({
         <div>
             <div className="hidden lg:fixed lg:inset-y-0 lg:z-50 lg:flex lg:w-72 lg:flex-col">
 
-              <div className="flex grow flex-col gap-y-2 overflow-y-auto bg-gray-900 px-6 pb-4">
-                <div className="flex h-16 shrink-0 items-center text-xl font-bold">
+            <div className="flex h-16 shrink-0 items-center text-xl font-bold sticky bg-gray-900 top-0 w-full pl-6">
                   Solstice
                 </div>
+              <div className="flex grow flex-col gap-y-2 overflow-y-auto bg-gray-900 px-6 pb-4">
+
+                {/* position: sticky;
+    top: 0;
+    background: inherit; */}
+                
                 <nav className="flex flex-1 flex-col">
                   {/* <ul role="list" className="flex flex-1 flex-col gap-y-7">
                     <li>
@@ -42,8 +47,9 @@ export default function RootLayout({
                     </li>
 
                   </ul> */}
+                    <h3 className="font-semibold text-sm">Properties</h3>
+                    <hr className="my-2 bg-slate-500"></hr>
 
-                
                   <PropertyList/>
                 </nav>
               </div>

@@ -51,6 +51,7 @@ function download_to_folder {
     rm "$TEAM-$FOLDER.zip"
 }
 
+download "GreenCloud" https://github.com/greencloudcomputing/TechZeroFE https://github.com/greencloudcomputing/TechZeroBE
 download "FlexiSquid" https://github.com/KnightNight101/Komodo_Hackathon
 download "FEIR" https://github.com/immo-huneke-zuhlke/projectfeir
 download "OctoWatt" https://github.com/octopus-game/octogame https://github.com/octopus-game/octopus-game-backend
