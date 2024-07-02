@@ -21,17 +21,8 @@ function download {
 
     elif [ "$#" -eq 3 ]; then
         local REPO2=$3
-        mkdir -p "$TEAM/frontend"
-        curl -L "$REPO1/archive/refs/heads/main.zip" > "$TEAM-frontend.zip"
-
-        unzip "$TEAM-frontend.zip" -d "$TEAM/frontend"
-        rm "$TEAM-frontend.zip"
-
-        mkdir -p "$TEAM/backend"
-        curl -L "$REPO2/archive/refs/heads/main.zip" > "$TEAM-backend.zip"
-
-        unzip "$TEAM-backend.zip" -d "$TEAM/backend"
-        rm "$TEAM-backend.zip"
+        download_to_folder "$TEAM" frontend "$REPO1"
+        download_to_folder "$TEAM" backend "$REPO2"
 
     elif [ "$#" -eq 4 ]; then
         local REPO2=$3
@@ -57,8 +48,8 @@ function download_to_folder {
     rm "$TEAM-$FOLDER.zip"
 }
 
-# download "FlexiSquid" https://github.com/KnightNight101/Komodo_Hackathon
-# download "FEIR" https://github.com/immo-huneke-zuhlke/projectfeir
-# download "OctoWatt" https://github.com/octopus-game/octogame https://github.com/octopus-game/octopus-game-backend
+download "FlexiSquid" https://github.com/KnightNight101/Komodo_Hackathon
+download "FEIR" https://github.com/immo-huneke-zuhlke/projectfeir
+download "OctoWatt" https://github.com/octopus-game/octogame https://github.com/octopus-game/octopus-game-backend
 
 download "Starfish" https://github.com/StarFishEnergy/Website https://github.com/StarFishEnergy/StarFishEnergy https://github.com/StarFishEnergy/StarfishExchange
