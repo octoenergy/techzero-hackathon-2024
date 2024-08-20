@@ -30,7 +30,7 @@ type Response struct {
 func ShellyHandler(w http.ResponseWriter, r *http.Request) {
 	// Create a new instance of ShellyAPIClient
 	client := external.ShellyAPIClient{}
-	client.SetAPIKey("MjM4ODIzdWlkAADF348BEBF971B1AD87EAF753A4182CC1202C778454F445D2BEE68DB05A61AFB04661939C704494") // Set your API key
+	client.SetAPIKey("MjM4ODIzdWlkAADF348BEBF971B1AD87EAF753A4182CC1202C778454F445D2BEE68DB05A61AFB04661939C704494") // This API Key has been revoked
 
 	// Fetch the Shelly data using the client
 	deviceID := "d48afc400484" // Replace with actual device ID if needed
