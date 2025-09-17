@@ -8,12 +8,13 @@ export const metadata: Metadata = {
 };
 
 export default function Home() {
+  // original iframe pointed at free-snails-production . up . railway . app   but that site is no longer valid.
   return (
     <>
       <DefaultLayout>
         <div className="relative h-0 w-full pb-[100vh]">
           <iframe
-            src="https://free-snails-production.up.railway.app/"
+            src="http://example.com"
             className="absolute left-0 top-0 h-full w-full"
             frameBorder="0"
           />
